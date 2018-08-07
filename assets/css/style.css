@@ -1,0 +1,6 @@
+.jumbotron{
+    background-image: url("tenor.gif");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color:green;
+}

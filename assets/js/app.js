@@ -21,10 +21,10 @@ $(".add-user").on("click", function (event) {
     event.preventDefault();
 
 
-    trainName = $(".employeeName").val().trim();
-    Destination = $(".role").val().trim();
-    firstTrain = $(".startDate").val().trim();
-    fequency = $(".monthlyRate").val().trim();
+    trainName = $(".TrainName").val().trim();
+    Destination = $(".Destination").val().trim();
+    firstTrain = $(".firstTrain").val().trim();
+    fequency = $(".Frequency").val().trim();
     console.log(trainName);
     console.log(Destination);
     console.log(fequency);
